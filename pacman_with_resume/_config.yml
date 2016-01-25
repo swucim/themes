@@ -97,3 +97,5 @@ google_cse:
 ## layout: search
 ## title: search
 ## ---
+##show declaration
+show_declare: true

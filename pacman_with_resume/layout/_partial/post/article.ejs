@@ -10,6 +10,9 @@
 		</div>
 		<% } %>
 		<%- item.content %>  
+		<% if(theme.show_declare) { %>
+			<%- partial('declare') %>
+		<% } %>
 	</div>
 		<%- partial('footer') %>   	       
 	</article>
